@@ -1,24 +1,18 @@
 <template>
   <v-app>
-    <chat-interface />
+    <v-main>
+      <v-container class="d-flex align-center justify-center" style="height: 100vh;">
+        <div class="text-center">
+          <h1 class="text-h2 mb-4">Hello World!</h1>
+          <p class="text-h6">Welcome to Sparc plugin template</p>
+        </div>
+      </v-container>
+    </v-main>
   </v-app>
 </template>
 
 <script setup>
-import ChatInterface from './components/ChatInterface.vue'
 </script>
 
-<style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html, body {
-  height: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+<style scoped>
 </style>
